@@ -7,6 +7,7 @@ const incrementVersion = ()=> {
   console.info('hello runner!')
   console.info('hello runner! 2')
   console.info('hello runner! 3')
+  console.info('hello runner! 4')
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading version.json:', err);
