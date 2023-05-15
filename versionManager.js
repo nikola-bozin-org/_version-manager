@@ -6,6 +6,7 @@ const filePath = path.join(__dirname, 'version.json');
 const incrementVersion = ()=> {
   console.info('hello runner!')
   console.info('hello runner! 2')
+  console.info('hello runner! 3')
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.error('Error reading version.json:', err);
